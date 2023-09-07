@@ -58,7 +58,7 @@ const Footer = () => {
       return;
     }
 
-    if (url.pathname.includes("menu")) {
+    if (url.pathname.includes("menu") || true) {
       setIsMain(false);
       setIsCommunity(false);
       setIsMoving(false);

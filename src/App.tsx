@@ -9,6 +9,9 @@ import SplashPage from './page/SplashPage';
 import Layout from './component/Common/Layout';
 import styled from '@emotion/styled';
 import Footer from './component/Common/Footer';
+import SubwayPage from './page/SubwayPage';
+import ConvenientPage from './page/ConvenientPage';
+import BusPage from './page/BusPage';
 
 function App() {
 
@@ -33,9 +36,12 @@ function App() {
                     <Route path='/moving-service' element={<MovingServicePage />} />
                     <Route path='/mypage' element={<MyPage />} />
                     <Route path='/menu' element={<MenuPage />} />
+                    <Route path='/subway' element={<SubwayPage />} />
+                    <Route path='/convenient' element={<ConvenientPage />} />
+                    <Route path='/bus' element={<BusPage />} />
                   </Routes>
                 </Suspense>
-              <Footer />
+                <Footer />
               </Router>
             </Container>
           )
