@@ -154,3 +154,4 @@ export const SlideTitle = styled.div`
   padding-top: 20px;
   font-size: 16px;
 `;
+
